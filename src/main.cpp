@@ -10,6 +10,7 @@ int main() {
 
     std::cout << "Problem 1.1: " << getMaxCalories() << '\n';
     std::cout << "Problem 1.2: " << getTopThreeCalories() << '\n';
+
     std::cout << "Problem 2.1: " << getScore() << '\n';
     std::cout << "Problem 2.2: " << getScore2() << '\n';
 }
