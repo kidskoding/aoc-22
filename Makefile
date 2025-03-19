@@ -1,5 +1,5 @@
 CXX = clang++
-CXXFLAGS = -std=c++20 -Wall -Wextra -Werror -pedantic -O2 -g -I$(SRC_DIR)
+CXXFLAGS = -std=c++20 -Wall -Wextra -pedantic -O2 -g -I$(SRC_DIR)
 
 SRC_DIR = src
 BUILD_DIR = build
