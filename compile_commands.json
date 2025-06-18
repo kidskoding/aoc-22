@@ -11,11 +11,106 @@
       "-Iinclude",
       "-c",
       "-o",
+      "build/obj/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/Users/anirudh/code-playgrounds/aoc/aoc-2022",
+    "file": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/src/main.cpp",
+    "output": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/build/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-g",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/obj/prob00.o",
+      "src/prob00.cpp"
+    ],
+    "directory": "/Users/anirudh/code-playgrounds/aoc/aoc-2022",
+    "file": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/src/prob00.cpp",
+    "output": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/build/obj/prob00.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-g",
+      "-Iinclude",
+      "-c",
+      "-o",
       "build/obj/prob01.o",
       "src/prob01.cpp"
     ],
     "directory": "/Users/anirudh/code-playgrounds/aoc/aoc-2022",
     "file": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/src/prob01.cpp",
     "output": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/build/obj/prob01.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-g",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/obj/prob02.o",
+      "src/prob02.cpp"
+    ],
+    "directory": "/Users/anirudh/code-playgrounds/aoc/aoc-2022",
+    "file": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/src/prob02.cpp",
+    "output": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/build/obj/prob02.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-g",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/obj/prob03.o",
+      "src/prob03.cpp"
+    ],
+    "directory": "/Users/anirudh/code-playgrounds/aoc/aoc-2022",
+    "file": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/src/prob03.cpp",
+    "output": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/build/obj/prob03.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-g",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/obj/prob04.o",
+      "src/prob04.cpp"
+    ],
+    "directory": "/Users/anirudh/code-playgrounds/aoc/aoc-2022",
+    "file": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/src/prob04.cpp",
+    "output": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/build/obj/prob04.o"
   }
 ]
