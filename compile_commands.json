@@ -112,5 +112,24 @@
     "directory": "/Users/anirudh/code-playgrounds/aoc/aoc-2022",
     "file": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/src/prob04.cpp",
     "output": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/build/obj/prob04.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "-g",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/obj/prob05.o",
+      "src/prob05.cpp"
+    ],
+    "directory": "/Users/anirudh/code-playgrounds/aoc/aoc-2022",
+    "file": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/src/prob05.cpp",
+    "output": "/Users/anirudh/code-playgrounds/aoc/aoc-2022/build/obj/prob05.o"
   }
 ]
