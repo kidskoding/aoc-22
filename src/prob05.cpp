@@ -1,7 +1,6 @@
 #include "prob05.h"
 #include <deque>
 #include <fstream>
-#include <iostream>
 #include <sstream>
 #include <stack>
 #include <vector>
@@ -13,7 +12,7 @@ std::string getTopOfEachStack() {
         std::string line;
         std::getline(fs, line);
         if(line[1] == '1') {
-            break;;
+            break;
         }
         lines.push_back(line);
     }
