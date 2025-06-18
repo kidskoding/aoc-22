@@ -1,11 +1,10 @@
-#pragma once
+#include "prob02.h"
 
 #include <fstream>
-#include <iostream>
 #include <unordered_map>
 
 int getScore() {
-    std::fstream fs("./input/rock_paper_scissors.txt");
+    std::fstream fs("./input/prob02.txt");
 
     std::unordered_map<char, int> scores;
     scores.insert(std::make_pair('X', 1));
@@ -39,7 +38,7 @@ int getScore() {
 }
 
 int getScore2() {
-    std::fstream fs("./input/rock_paper_scissors.txt");
+    std::fstream fs("./input/prob02.txt");
 
     std::unordered_map<char, int> scores;
     scores.insert(std::make_pair('X', 1));

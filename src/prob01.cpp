@@ -1,4 +1,4 @@
-#pragma once
+#include "prob01.h"
 
 #include <algorithm>
 #include <fstream>
@@ -7,7 +7,7 @@
 
 int getMaxCalories() {
     std::vector<int> calories;
-    std::fstream fs("./input/calorie_counting.txt");
+    std::fstream fs("./input/prob01.txt");
 
     std::string line;
     int totalCalories = 0;
@@ -25,7 +25,7 @@ int getMaxCalories() {
 
 int getTopThreeCalories() {
     std::vector<int> calories;
-    std::fstream fs("./input/calorie_counting.txt");
+    std::fstream fs("./input/prob01.txt");
 
     std::string line;
     int totalCalories = 0;
