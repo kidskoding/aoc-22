@@ -6,7 +6,8 @@
 // #include "prob03.h"
 // #include "prob04.h"
 // #include "prob05.h"
-#include "prob06.h"
+// #include "prob06.h"
+#include "prob08.h"
 
 int main() {
     // std::cout << "Problem 0: " << '\n';
@@ -27,6 +28,9 @@ int main() {
     // std::cout << "Problem 5.1: " << getTopOfEachStack() << '\n';
     // std::cout << "Problem 5.2: " << getTopOfEachStack2() << '\n';
 
-    std::cout << "Problem 6.1: " << getFirstStartOfPacket() << '\n';
-    std::cout << "Problem 6.2: " << getFirstStartOfPacket2() << '\n';
+    // std::cout << "Problem 6.1: " << getFirstStartOfPacket() << '\n';
+    // std::cout << "Problem 6.2: " << getFirstStartOfPacket2() << '\n';
+
+    std::cout << "Problem 8.1: " << countVisibleTrees() << std::endl;
+    std::cout << "Problem 8.2: " << getMaxScenicScore() << std::endl;
 }
