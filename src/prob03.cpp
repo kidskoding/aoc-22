@@ -7,7 +7,7 @@
 #include <set>
 #include <vector>
 
-int prioritize() {
+int part1() {
     std::fstream fs("input/prob03.txt");
     int sum = 0;
     while(fs.good()) {
@@ -41,7 +41,7 @@ int prioritize() {
     return sum;
 }
 
-int prioritizeInGroups() {
+int part2() {
     std::fstream fs("input/prob03.txt");
     std::vector<std::set<char>> sets;
     int sum = 0;

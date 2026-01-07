@@ -1,7 +1,7 @@
 #ifndef PROB06_H
 #define PROB06_H
 
-int getFirstStartOfPacket();
-int getFirstStartOfPacket2();
+int part1();
+int part2();
 
 #endif // PROB06_H

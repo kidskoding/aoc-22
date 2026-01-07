@@ -3,7 +3,7 @@
 
 #include <string>
 
-int getSumOfSignalStrenghts();
-std::string solveCRT();
+int part1();
+std::string part2();
 
 #endif // PROB10_H

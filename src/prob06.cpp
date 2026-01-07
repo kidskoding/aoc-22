@@ -2,7 +2,7 @@
 #include <fstream>
 #include <set>
 
-int getFirstStartOfPacket() {
+int part1() {
     std::fstream fs("./input/prob06.txt");
     std::string line;
     std::getline(fs, line);
@@ -16,7 +16,7 @@ int getFirstStartOfPacket() {
     return 0;
 }
 
-int getFirstStartOfPacket2() {
+int part2() {
     std::fstream fs("./input/prob06.txt");
     std::string line;
     std::getline(fs, line);

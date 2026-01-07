@@ -5,7 +5,7 @@
 #include <stack>
 #include <vector>
 
-std::string getTopOfEachStack() {
+std::string part1() {
     std::fstream fs("./input/prob05.txt");
     std::vector<std::string> lines;
     while(fs.good()) {
@@ -78,7 +78,7 @@ std::string getTopOfEachStack() {
     return res;
 }
 
-std::string getTopOfEachStack2() {
+std::string part2() {
     std::fstream fs("./input/prob05.txt");
     std::vector<std::string> lines;
     while(fs.good()) {

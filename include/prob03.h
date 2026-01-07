@@ -3,8 +3,9 @@
 
 #include <set>
 
-int prioritize();
-int prioritizeInGroups();
+int part1();
+int part2();
+
 char commonChar(std::set<char> one, std::set<char> two, std::set<char> three);
 int helper(char c);
 

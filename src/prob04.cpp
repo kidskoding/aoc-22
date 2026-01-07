@@ -4,7 +4,7 @@
 #include <sstream>
 #include <string>
 
-int countOverlappingPairs() {
+int part1() {
     std::fstream fs("./input/prob04.txt");
     std::vector<std::string> parts;
     int overlappingPairs = 0;
@@ -41,7 +41,7 @@ int countOverlappingPairs() {
     return overlappingPairs;
 }
 
-int countOverlappingPairRanges() {
+int part2() {
     std::fstream fs("./input/prob04.txt");
     std::vector<std::string> parts;
     int overlappingPairs = 0;

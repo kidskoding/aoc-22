@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-int getMaxCalories() {
+int part1() {
     std::vector<int> calories;
     std::fstream fs("./input/prob01.txt");
 
@@ -23,7 +23,7 @@ int getMaxCalories() {
     return *std::max_element(calories.begin(), calories.end());
 }
 
-int getTopThreeCalories() {
+int part2() {
     std::vector<int> calories;
     std::fstream fs("./input/prob01.txt");
 

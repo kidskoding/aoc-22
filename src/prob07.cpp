@@ -7,7 +7,7 @@
 #include <map>
 #include <string>
 
-void getDirectorySizes() {
+void part1() {
     std::fstream fs("./input/prob07.txt");
     std::stack<std::string> path;
     std::map<std::string, std::set<std::string>> families;

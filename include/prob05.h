@@ -3,7 +3,7 @@
 
 #include <string>
 
-std::string getTopOfEachStack();
-std::string getTopOfEachStack2();
+std::string part1();
+std::string part2();
 
 #endif // PROB05_H

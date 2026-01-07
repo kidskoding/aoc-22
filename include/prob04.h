@@ -3,8 +3,9 @@
 
 #include <string>
 
-int countOverlappingPairs();
-int countOverlappingPairRanges();
+int part1();
+int part2();
+
 void parseRangeNumerical(const std::string& rangeStr, int& start, int& end);
 
 #endif // PROB04_H

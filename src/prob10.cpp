@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-int getSumOfSignalStrenghts() {
+int part1() {
     std::fstream fs("./input/prob10.txt");
     std::string line;
     int x = 1;
@@ -28,7 +28,7 @@ int getSumOfSignalStrenghts() {
     return sum;
 }
 
-std::string solveCRT() {
+std::string part2() {
     std::fstream fs("./input/prob10.txt");
     std::string line;
     int x = 1;

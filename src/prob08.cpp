@@ -3,7 +3,7 @@
 #include <fstream>
 #include "prob08.h"
 
-int countVisibleTrees() {
+int part1() {
     std::fstream fs("./input/prob08.txt");
     std::vector<std::vector<int>> grid;
     std::string line;
@@ -27,7 +27,7 @@ int countVisibleTrees() {
     return count;
 }
 
-int getMaxScenicScore() {
+int part2() {
     std::fstream fs("./input/prob08.txt");
     std::vector<std::vector<int>> grid;
     std::string line;

@@ -3,7 +3,7 @@
 #include <fstream>
 #include <unordered_map>
 
-int getScore() {
+int part1() {
     std::fstream fs("./input/prob02.txt");
 
     std::unordered_map<char, int> scores;
@@ -37,7 +37,7 @@ int getScore() {
     return score;
 }
 
-int getScore2() {
+int part2() {
     std::fstream fs("./input/prob02.txt");
 
     std::unordered_map<char, int> scores;
