@@ -9,7 +9,7 @@
 
 int part1() {
     std::fstream fs("./input/prob11.txt");
-
+	
     std::map<int, std::vector<int>> map;
     std::map<int, char> opCharMap;      
     std::map<int, std::string> operand1Map;
@@ -125,4 +125,8 @@ int part1() {
     }
     std::sort(counts.begin(), counts.end(), std::greater<>());
     return counts[0] * counts[1];
+}
+
+int part2() {
+
 }

@@ -4,7 +4,7 @@
 #include "prob08.h"
 
 int part1() {
-    std::fstream fs("./input/prob08.txt");
+	std::fstream fs("./input/prob08.txt");
     std::vector<std::vector<int>> grid;
     std::string line;
     while(std::getline(fs, line)) {
